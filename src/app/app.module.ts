@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TemplatesComponent } from './pages/templates/templates.component';
+import { ReactiveComponent } from './pages/reactive/reactive.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TemplatesComponent,
+    ReactiveComponent
   ],
   imports: [
     BrowserModule,
